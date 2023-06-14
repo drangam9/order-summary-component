@@ -52,5 +52,5 @@ This project taught me about the `clamp` function in CSS and how to use it for r
 
 ## Author
 
-- Github - [drangam9](https://githhub.com/drangam0)
+- Github - [drangam9](https://github.com/drangam9)
 - Frontend Mentor - [@drangam9](https://www.frontendmentor.io/profile/drangam9)
