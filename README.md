@@ -29,7 +29,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Frontend Mentor Solution](https://www.frontendmentor.io/solutions/order-summary-component-wiht-html-css-and-sass-IIPwrgEcfQ)
-- Live Site URL: [Order Summary Component]([https://your-live-site-url.com](https://github.com/drangam9/order-summary-component))
+- Live Site URL: [Order Summary Component](https://drangam9.github.io/order-summary-component)
 
 ## My process
 
