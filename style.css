@@ -1,0 +1,113 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: grid;
+  place-items: center;
+  min-height: 100vh;
+  font-size: 1rem;
+  font-family: "Red Hat Display", sans-serif;
+  background: scroll url(./images/pattern-background-desktop.svg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-color: hsl(225, 100%, 94%);
+}
+
+h1 {
+  font-size: 1.5rem;
+}
+
+p {
+  opacity: 0.6;
+  font-weight: lighter;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+main {
+  max-width: clamp(350px, 75%, 400px);
+  border-radius: 10px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0px 20px 40px rgb(180, 190, 254);
+}
+
+.main-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px;
+  background-color: white;
+  text-align: center;
+}
+.main-card * {
+  margin: 10px 0px;
+}
+
+.plan-card {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  border-radius: 10px;
+  background-color: hsl(225, 100%, 98%);
+  padding: 10px 20px;
+  font-size: 0.9rem;
+}
+.plan-card a {
+  color: hsl(245, 75%, 52%);
+  text-decoration: underline;
+  font-weight: bold;
+  font-size: 0.8rem;
+}
+.plan-card a:hover {
+  opacity: 0.8;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.plan-price {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-left: 20px;
+  margin-right: auto;
+}
+.plan-price * {
+  margin: 0px;
+}
+
+button {
+  width: 100%;
+  padding: 15px;
+  border-radius: 10px;
+  background-color: hsl(245, 75%, 52%);
+  color: white;
+  font-weight: bold;
+  border: 0px;
+  box-shadow: 0px 15px 15px hsla(245, 75%, 52%, 0.2);
+}
+button:hover {
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+button + a {
+  font-weight: bold;
+  font-size: 0.8rem;
+  opacity: 0.7;
+}
+button + a:hover {
+  opacity: 1;
+  cursor: pointer;
+}
+
+/*# sourceMappingURL=style.css.map */
